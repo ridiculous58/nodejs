@@ -1,0 +1,5 @@
+Tarayıcıda Global nesne windows dur tum tanımladıgın dosyalardaki değişkenler windows nesnesinin child didir bu yuzde scriptA da tanımladıgımız bir değişkeni scriptB de
+windows nesnesi sayesinde direk erişebiliriz
+
+NodeJs de ise window nesnesi yoktur ona benzer global nesne vardır , global nesnesi window a benzer ama yukarıdaki ornekte oldugu gibi scriptA da tanımladıgımızı global nesne 
+ile scriptB den erişemeyiz   
