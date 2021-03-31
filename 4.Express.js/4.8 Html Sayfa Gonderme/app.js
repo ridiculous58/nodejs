@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const bodyParser = require('body-parser');
+const bodyParser = require('body-parser'); //npm install body-parser //bodyparser olmadan kullanıcıdan post edilen data undifined olarak gelir bunun yuzunden ek paket olan body parser ı kullanmamız gerekir
 const adminRoutes = require('./routes/admin');
 const userRoutes = require('./routes/user');
 const path = require('path');
